@@ -9,8 +9,13 @@
 function reverse(str) {
 
 
-}
-
 module.exports = reverse;
 
 // return str.split('').reverse().join('');
+
+// let reversed = '';
+// for (let character of str) {
+//   reversed = character + reversed;
+// }
+// return reversed;
+// }
