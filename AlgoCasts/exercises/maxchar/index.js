@@ -11,6 +11,15 @@ function maxChar(str) {
 
 module.exports = maxChar;
 
+
+
+
+
+
+
+
+
+
 function maxChar(str) {
   const charMap = {};
   let max = 0;
