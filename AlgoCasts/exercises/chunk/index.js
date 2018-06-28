@@ -14,6 +14,12 @@ function chunk(array, size) {
 
 module.exports = chunk;
 
+
+
+
+
+
+
 // function chunk(array, size) {
 //   const chunked = [];
 //
