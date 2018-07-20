@@ -10,7 +10,6 @@
 
 function chunk(array, size) {
 
-
 }
 
 
