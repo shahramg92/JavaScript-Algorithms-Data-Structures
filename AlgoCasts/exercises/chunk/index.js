@@ -11,7 +11,6 @@
 function chunk(array, size) {
 
 
-
 }
 
 
