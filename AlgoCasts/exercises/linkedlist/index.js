@@ -3,7 +3,10 @@
 // See 'directions' document
 
 class Node {
-  
+  constructor (data, next = null) {
+    this.data = data;
+    this.next = next;
+  }
 }
 
 class LinkedList {
@@ -11,3 +14,24 @@ class LinkedList {
 }
 
 module.exports = { Node, LinkedList };
+
+
+
+
+
+
+
+
+
+
+
+// Excercises!
+//
+// Ex. 1:
+//
+// class Node {
+//   constructor (data, next = null) {
+//     this.data = data;
+//     this.next = next;
+//   }
+// }
