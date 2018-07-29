@@ -8,15 +8,8 @@
 //   vowels('Why?') --> 0
 
 function vowels(str) {
-  const checker = ['a', 'e', 'i', 'o', 'u'];
-  let counter = 0;
 
-  for (let char of str.toLowerCase()) {
-    if (checker.includes(char)) {
-      counter++;
-    }
-  }
-  return counter;
+
 }
 
 
