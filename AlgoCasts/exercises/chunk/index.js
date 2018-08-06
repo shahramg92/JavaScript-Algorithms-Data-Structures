@@ -12,7 +12,7 @@ function chunk(array, size) {
   let chunked = [];
   let index = 0;
 
-  while (index < array.length) {
+  while (array.length > index) {
     chunked.push(array.slice(index, index + size))
     index += size;
   }
