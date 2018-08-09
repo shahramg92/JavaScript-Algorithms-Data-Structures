@@ -42,11 +42,14 @@ class LinkedList {
     while (node) {
       if (!node.next) {
         return node;
-      } 
+      }
       node = node.next;
     }
   }
 
+  clear() {
+    this.head = null;
+  }
 
 }
 
