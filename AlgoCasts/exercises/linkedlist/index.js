@@ -83,7 +83,7 @@ class LinkedList {
     const last = this.getLast();
 
     if (last) {
-      There are some existing nodes in our chain
+      // There are some existing nodes in our chain
       last.next = new Node(data);
     } else {
       // The chain is empty
