@@ -12,7 +12,6 @@
 
 function anagrams(stringA, stringB) {
 
-
 }
 
 
